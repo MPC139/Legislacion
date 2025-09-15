@@ -1,16 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.7.26)  15 SEP 2025 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.7.26)  15 SEP 2025 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/matias/Desktop/APE_legislacion/tp_legislacion.tex
-(/home/matias/Desktop/APE_legislacion/tp_legislacion.tex
+**/home/matias/Desktop/Legislacion/tp_legislacion.tex
+(/home/matias/Desktop/Legislacion/tp_legislacion.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -514,12 +514,12 @@ LaTeX Info: Redefining \% on input line 38.
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -589,7 +589,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
-<./imagen_portada.png, id=31, 1541.76pt x 1027.84pt>
+<./imagen_portada.png, id=39, 1541.76pt x 1027.84pt>
 File: ./imagen_portada.png Graphic file (type png)
 <use ./imagen_portada.png>
 Package pdftex.def Info: ./imagen_portada.png  used on input line 44.
@@ -603,7 +603,9 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 4.
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
 )
 \tf@toc=\write5
 \openout5 = `tp_legislacion.toc'.
@@ -611,8 +613,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 [2]
-Overfull \hbox (2.1151pt too wide) in paragraph at lines 53--54
-\T1/cmr/m/n/10.95 que la In-te-li-gen-cia Ar-ti-fi-cial (IA) plan-tea al mar-
+Overfull \hbox (1.06082pt too wide) in paragraph at lines 56--58
+\T1/cmr/bx/n/10 Palabras cla-ve: \T1/cmr/m/n/10 In-te-li-gen-cia Ar-ti-fi-cial, De-re-cho Ar-
  []
 
 
@@ -622,39 +624,60 @@ Overfull \hbox (2.1151pt too wide) in paragraph at lines 53--54
 [3
 
 ]
-Overfull \hbox (1.87885pt too wide) in paragraph at lines 78--79
-\T1/cmr/m/n/10.95 de-sa-fío sin pre-ce-den-tes pa-ra es-tos con-cep-tos fun-
+Overfull \hbox (11.84904pt too wide) in paragraph at lines 88--89
+\T1/cmr/bx/n/10 trans-pa-ren-cia al-go-rít-mi-ca\T1/cmr/m/n/10 , ren-di-ción de cuen-
  []
 
 
-
-
-Overfull \hbox (0.30078pt too wide) in paragraph at lines 90--91
-[]\T1/cmr/bx/n/10.95 Protección de Da-tos Per-so-na-les (De-
- []
-
-
-Overfull \hbox (2.03348pt too wide) in paragraph at lines 90--91
-\T1/cmr/bx/n/10.95 sen-ti-mien-to in-for-ma-do \T1/cmr/m/n/10.95 en el tra-ta-mien-
- []
 
 
 
 [4]
-Overfull \hbox (2.38554pt too wide) in paragraph at lines 94--95
-\T1/cmr/m/n/10.95 per-mi-te re-co-no-cer nue-vos de-re-chos no enu-
+Overfull \hbox (8.55957pt too wide) in paragraph at lines 108--109
+[]\T1/cmr/bx/n/10 Leyes Na-cio-na-les: \T1/cmr/m/n/10 Nor-mas co-mo la Ley 25.326
+ []
+
+
+Overfull \hbox (1.46964pt too wide) in paragraph at lines 109--110
+[]\T1/cmr/bx/n/10 Reglamentos: \T1/cmr/m/n/10 El Po-der Eje-cu-ti-vo pue-de emi-
+ []
+
+
+Overfull \hbox (2.34937pt too wide) in paragraph at lines 120--120
+[]\T1/cmr/bx/n/12 Capítulo III: ``La Cons-ti-tu-ción de
  []
 
 
 
 
-Overfull \hbox (18.0493pt too wide) in paragraph at lines 116--116
-\T1/cmr/m/n/10.95 para -[] el -[] desarrollo -[] tecnologico -[] responsable /
+Overfull \hbox (0.93703pt too wide) in paragraph at lines 140--141
+[]\T1/cmr/m/n/10 El con-cep-to ju-rí-di-co de per-so-na en el CCyC (Art.
+ []
+
+
+Overfull \hbox (5.80052pt too wide) in paragraph at lines 147--148
+[]\T1/cmr/m/n/10 La res-pon-sa-bi-li-dad so-li-da-ria del fa-bri-can-te, pro-
  []
 
 
 
-[5] (./tp_legislacion.aux
+[5]
+Overfull \hbox (8.21564pt too wide) in paragraph at lines 165--165
+\T1/cmr/m/n/10 abogados . com . ar / index . php / la -[] arquitectura -[]
+ []
+
+
+Overfull \hbox (26.60065pt too wide) in paragraph at lines 165--165
+\T1/cmr/m/n/10 red -[] de -[] proteccion -[] para -[] el -[] desarrollo -[] tecnologico -[]
+ []
+
+
+
+
+
+[6
+
+] (./tp_legislacion.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -664,24 +687,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `tp_legislacion.out' has not changed.
-(rerunfilecheck)             Checksum: 1E21DA743E9C53A9A867A899D85A14AC;1085.
+(rerunfilecheck)             Checksum: 8B374C5A16DFF5E119B0393C02CCE75F;1638.
 Package logreq Info: Writing requests to 'tp_legislacion.run.xml'.
 \openout1 = `tp_legislacion.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19118 strings out of 473197
- 336569 string characters out of 5718605
- 1275836 words of memory out of 5000000
- 42163 multiletter control sequences out of 15000+600000
- 568581 words of font info for 56 fonts, out of 8000000 for 9000
+ 19132 strings out of 473197
+ 336738 string characters out of 5718605
+ 1278963 words of memory out of 5000000
+ 42168 multiletter control sequences out of 15000+600000
+ 567649 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,1740b,2813s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on tp_legislacion.pdf (5 pages, 2763865 bytes).
+ 75i,12n,81p,1736b,2813s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on tp_legislacion.pdf (6 pages, 2758650 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
