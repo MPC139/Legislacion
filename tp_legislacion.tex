@@ -1,0 +1,122 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel} % Para separación de sílabas en español
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm} % Márgenes cómodos
+
+% Paquetes CRUCIALES para tu trabajo
+\usepackage{graphicx} % Para incluir imágenes si las hay
+\usepackage{hyperref} % Para hypervínculos en el índice y referencias
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={TP Legislación - IA},
+}
+\usepackage{csquotes} % Para comillas correctas según el idioma
+\usepackage[style=apa, backend=biber, language=auto]{biblatex} % Bibliografía APA
+
+\DeclareLanguageMapping{spanish}{spanish-apa} % Mapea el idioma 'spanish' a la variante de estilo 'spanish-apa'
+\addbibresource{bibliografica.bib} % Apunta a tu archivo .bib
+
+% Metadatos del documento
+\title{Inteligencia Artificial en Argentina: Un Análisis Jurídico desde la Constitución Nacional y el Código Civil y Comercial}
+\author{
+    \textbf{Integrantes Grupo 5} \\
+    \vspace{0.4cm} % Espacio vertical para separar el subtítulo de los nombres
+    \begin{tabular}{l}
+        Matias Pormi \\
+        Nombre Integrante 2 \\
+        Nombre Integrante 3 \\
+        Nombre Integrante 4 \\
+        Nombre Integrante 5
+    \end{tabular}
+}
+
+\begin{document}
+
+\maketitle % Genera la portada
+
+\vfill % Empuja la imagen hacia abajo, ocupando el espacio disponible
+
+\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{./imagen_portada.png}}
+
+
+\newpage % Fuerza un salto de página después del índice
+\tableofcontents % Genera el índice automáticamente
+\newpage % Fuerza un salto de página después del índice
+\twocolumn % <-- A partir de aquí, todo será en dos columnas
+
+\begin{abstract}
+Este trabajo práctico analiza los desafíos que la Inteligencia Artificial (IA) plantea al marco jurídico argentino, tomando como caso de estudio el artículo \enquote{La Arquitectura Constitucional de la Innovación con IA: Red de Protección para el Desarrollo Tecnológico Responsable}. El objetivo principal es examinar cómo los principios fundamentales del derecho privado y constitucional contenidos en las primeras siete unidades de la obra \enquote{Legislación - Lecciones de Derecho} pueden aplicarse para regular esta tecnología disruptiva. La metodología consiste en un análisis jurídico-doctrinario que relaciona de manera crítica cada capítulo del libro (desde el concepto de Derecho hasta los Derechos Reales) con los problemas específicos que surgen de la IA, como la responsabilidad por daños de sistemas autónomos, la validez de los actos jurídicos celebrados por agentes artificiales y la protección de los datos personales. Desde un \emph{enfoque ingenieril}, se concluye que el desarrollo técnico de la IA en Argentina debe incorporar por defecto principios de \emph{privacy by design} y \emph{transparencia algorítmica} para alinearse con las garantías constitucionales y evitar incurrir en responsabilidad civil o contractual. El hallazgo central del trabajo es que la Constitución Nacional de 1853, a través de una \emph{interpretación evolutiva} de sus cláusulas (arts. 19, 14, 42 y 33), provee una red de protección suficientemente robusta y flexible para fomentar la innovación tecnológica responsable, sin necesidad de una reforma legal inmediata, sirviendo como guía para una eventual ley específica de IA.
+
+\vspace{0.5cm}
+\noindent \textbf{Palabras clave:} Inteligencia Artificial, Derecho Argentino, Interpretación Evolutiva, Constitución Nacional, Responsabilidad Algorithmica, Ética en la Ingeniería.
+\end{abstract}
+
+\section{Introducción}
+\label{sec:introduccion}
+
+La inteligencia artificial (IA) ha irrumpido en el siglo XXI no solo como una herramienta tecnológica, sino como una fuerza disruptiva que redefine industrias, interacciones sociales y, de manera crucial, los marcos normativos que rigen las sociedades contemporáneas. Su desarrollo vertiginoso presenta desafíos jurídicos complejos que tensionan los conceptos tradicionales del derecho, tales como la personalidad jurídica, la responsabilidad civil, la privacidad y la validez de los actos voluntarios. Argentina, en su aspiración de convertirse en un hub tecnológico global, no es ajena a este debate, que se manifiesta en una creciente producción legislativa y doctrinaria orientada a encontrar un equilibrio entre la innovación desregulada y la protección irrestricta de los derechos fundamentales.
+
+El presente trabajo se enmarca en el análisis de este fenómeno a partir del artículo periodístico, titulado \enquote{La Arquitectura Constitucional de la Innovación con IA: Red de Protección para el Desarrollo Tecnológico Responsable}. Este artículo periodístico, de origen argentino y reciente publicación, resulta particularmente oportuno para el análisis, ya que propone una solución inherentemente jurídica: la aplicación de una \emph{interpretación evolutiva} de la Constitución Nacional de 1853 para dar respuesta a los problemas inéditos que plantea la IA, sin necesidad de acudir inicialmente a una reforma legal integral.
+
+El objetivo central de esta investigación es realizar un análisis crítico y detallado que permita \emph{relacionar} los postulados del artículo mencionado con los contenidos de las primeras siete unidades del libro de texto, \enquote{Legislación - Lecciones de Derecho}. Se procederá a un examen secuencial de cada capítulo (El Derecho, El Sistema Jurídico, La Constitución, Persona, Hechos y Actos Jurídicos, Obligaciones y Derechos Reales), explorando cómo los principios allí establecidos interactúan y se adaptan a los desafíos específicos de la IA.
+
+Adicionalmente, y en cumplimiento de la consigna práctica, se incorporará un \emph{enfoque ingenieril} desde la perspectiva de la ingeniería en sistemas. Este enfoque complementará el análisis jurídico, examinando las implicancias prácticas que estos principios legales tienen en el ciclo de vida del desarrollo de software, la gestión de proyectos de IA y la implementación de mecanismos de ética por diseño (\emph{ethics by design}).
+
+\section{Desarrollo del Marco Teórico}
+\label{sec:desarrollo}
+
+\subsection{Capítulo I: ``El Derecho''}
+\label{subsec:derecho}
+
+El Capítulo I de la obra \textcite{libro_legislacion} establece que el Derecho es un sistema dinámico de normas que regulan la convivencia social, con el fin de alcanzar valores fundamentales como la \emph{justicia, el orden, la seguridad y la paz}. Estas normas jurídicas, coercibles y coactivas, se diferencian de otras (morales, religiosas, sociales) por su carácter imperativo y por ser creadas y garantizadas por el Estado para organizar la vida en sociedad de manera pacífica y justa.
+
+La irrupción de tecnologías disruptivas como la Inteligencia Artificial (IA) representa un desafío sin precedentes para estos conceptos fundacionales. El artículo ``La Arquitectura Constitucional de la Innovación con IA'' \textcite{articulo_ia} plantea que la tensión entre innovación tecnológica y regulación puede resolverse mediante una \textbf{interpretación evolutiva} de la Constitución Nacional, la cual provee una \emph{red de protección} basada en seis nodos constitucionales clave. Esta red permite que el marco normativo existente se adapte para abordar realidades donde actores no humanos (sistemas de IA) toman decisiones autónomas, sin necesidad de abandonar los principios esenciales del Derecho identificados en el Capítulo I.
+
+\subsubsection*{Los Seis Nodos Constitucionales y su Relación con el Concepto de Derecho:}
+El artículo periodístico propone que la CN de 1853, a través de una interpretación dinámica, ofrece un marco completo para regular la IA. Esta \emph{arquitectura constitucional} se sustenta en los siguientes nodos, cada uno de los cuales interactúa con los valores y funciones del Derecho:
+
+\begin{enumerate}
+    \item \textbf{Art. 19 CN (Acciones privadas):} Protege las ``acciones privadas que de ningún modo ofendan al orden y a la moral pública, ni perjudiquen a un tercero''. En la era digital, este artículo se reinterpreta para amparar la privacidad y autonomía de las personas frente a intromisiones de sistemas de IA, reflejando el valor jurídico del \textbf{orden} y la \textbf{seguridad} personal. El Derecho, como ordenador de la convivencia, debe garantizar que el desarrollo tecnológico no vulnere este espacio de libertad individual.
+
+    \item \textbf{Art. 14 CN (Derecho a ejercer industria lícita):} Ampara la innovación y el desarrollo tecnológico, incluida la IA. Este nodo representa el valor \textbf{poder} (capacidad de innovar y crear) dentro del esquema de valores jurídicos. Sin embargo, el artículo destaca que este derecho no es absoluto y encuentra su límite en el mismo Art. 19 (no dañar a terceros) y en el \textbf{orden público}. El Derecho debe así balancear dos de sus valores fundacionales: fomentar el progreso (\textbf{poder}) y proteger la convivencia (\textbf{seguridad} y \textbf{paz}).
+
+    \item \textbf{Art. 42 CN (Derechos de usuarios y consumidores):} Establece la obligación de las autoridades de proveer protección contra distorsiones del mercado y de controlar los monopolios. aplicado a la IA, este nodo exige \textbf{transparencia algorítmica}, rendición de cuentas y protección contra prácticas abusivas o discriminatorias por parte de quienes desarrollan o despliegan estas tecnologías. Refleja el valor de la \textbf{justicia} en las relaciones de consumo y el rol del Estado como garante de equidad.
+
+    \item \textbf{Protección de Datos Personales (Derivado del Art. 33 CN - Derechos Implícitos):} Aunque no explícito en el texto, se reconoce como un derecho fundamental derivado de los Arts. 19 y 33 CN. Este nodo es crucial para la IA, cuyo combustible son los datos. Exige principios de \textbf{minimización, finalidad y consentimiento informado} en el tratamiento de datos para entrenar sistemas de IA, vinculándose directamente con el valor de la \textbf{seguridad} jurídica de las personas.
+
+    \item \textbf{Art. 28 CN (Principio de Razonabilidad):} Establece que los principios, garantías y derechos reconocidos por la CN no podrán ser alterados por las leyes que reglamenten su ejercicio. Toda regulación o limitación estatal a la IA debe superar el test de razonabilidad: finalidad legítima, idoneidad, necesidad y proporcionalidad. Este nodo es la herramienta jurídica primordial para asegurar que cualquier normativa sobre IA sea \textbf{justa} y no arbitraria, protegiendo así la certeza del derecho.
+
+    \item \textbf{Art. 33 CN (Derechos Implícitos):} Funciona como una cláusula abierta que permite reconocer nuevos derechos no enumerados expresamente. El artículo periodístico argumenta que aquí pueden fundarse derechos emergentes como el ``derecho a la identidad digital'', el ``derecho a la no discriminación algorítmica'' o el ``derecho al desarrollo tecnológico''. Este nodo es la máxima expresión del Derecho como sistema \textbf{vivo} y en evolución, capaz de adaptarse a realidades futuras imprevistas por el constituyente, siempre en busca de la \textbf{justicia}.
+\end{enumerate}
+
+\subsubsection*{Conclusión parcial:}
+El análisis del artículo periodístico a la luz de los conceptos del Capítulo I demuestra que la \emph{red de protección constitucional} basada en los seis nodos no es una creación novedosa, sino la aplicación coherente de la naturaleza misma del Derecho: un sistema dinámico orientado por valores. La \textbf{interpretación evolutiva} permite que estos principios constitucionales interactúen para regular la IA, balanceando la innovación con la protección de derechos, el \textbf{poder} con la \textbf{seguridad}, y la libertad individual con el \textbf{orden} público. Así, el Derecho demuestra su capacidad de mantener su esencia mientras regula realidades tecnológicas completamente nuevas.
+
+\subsection{Capítulo II: ``El Sistema Jurídico''}
+\label{subsec:sistema}
+... (y así sucesivamente para los 7 capítulos) ...
+
+\section{Enfoque Ingenieril}
+\label{sec:ingenieril}
+Desarrollo del análisis desde la perspectiva de la ingeniería.
+
+\section{Conclusión}
+\label{sec:conclusion}
+Síntesis final de los hallazgos.
+
+% --- BIBLIOGRAFÍA ---
+% Las entradas se tomarán del archivo 'bibliografia.bib'
+\addcontentsline{toc}{section}{Referencias} % Añade "Referencias" al Índice
+\printbibliography
+
+% --- ANEXOS (Opcional) ---
+% \appendix
+% \section{Texto del Artículo Periodístico}
+% Podrías incluir el texto completo o partes del artículo como anexo.
+
+\end{document}

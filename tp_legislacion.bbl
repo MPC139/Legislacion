@@ -1,0 +1,121 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{libro_legislacion}{book}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Legislación - Lecciones de Derecho}
+      \field{year}{2023}
+    \endentry
+    \entry{articulo_ia}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a10847313088470aefb9e2ac99b42412}{%
+           family={Lerer},
+           familyi={L\bibinitperiod},
+           given={Ignacio\bibnamedelima Adrián},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{fullhash}{a10847313088470aefb9e2ac99b42412}
+      \strng{fullhashraw}{a10847313088470aefb9e2ac99b42412}
+      \strng{bibnamehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authorbibnamehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authornamehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authorfullhash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authorfullhashraw}{a10847313088470aefb9e2ac99b42412}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Abogados.com.ar}
+      \field{title}{La Arquitectura Constitucional de la Innovación con IA}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://abogados.com.ar/index.php/la-arquitectura-constitucional-de-la-innovacion-con-ia-red-de-proteccion-para-el-desarrollo-tecnologico-responsable/37453#
+      \endverb
+      \verb{url}
+      \verb https://abogados.com.ar/index.php/la-arquitectura-constitucional-de-la-innovacion-con-ia-red-de-proteccion-para-el-desarrollo-tecnologico-responsable/37453#
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{libro_legislacion}{book}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Legislación - Lecciones de Derecho}
+      \field{year}{2023}
+    \endentry
+    \entry{articulo_ia}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a10847313088470aefb9e2ac99b42412}{%
+           family={Lerer},
+           familyi={L\bibinitperiod},
+           given={Ignacio\bibnamedelima Adrián},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{fullhash}{a10847313088470aefb9e2ac99b42412}
+      \strng{fullhashraw}{a10847313088470aefb9e2ac99b42412}
+      \strng{bibnamehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authorbibnamehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authornamehash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authorfullhash}{a10847313088470aefb9e2ac99b42412}
+      \strng{authorfullhashraw}{a10847313088470aefb9e2ac99b42412}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Abogados.com.ar}
+      \field{title}{La Arquitectura Constitucional de la Innovación con IA}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://abogados.com.ar/index.php/la-arquitectura-constitucional-de-la-innovacion-con-ia-red-de-proteccion-para-el-desarrollo-tecnologico-responsable/37453#
+      \endverb
+      \verb{url}
+      \verb https://abogados.com.ar/index.php/la-arquitectura-constitucional-de-la-innovacion-con-ia-red-de-proteccion-para-el-desarrollo-tecnologico-responsable/37453#
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
