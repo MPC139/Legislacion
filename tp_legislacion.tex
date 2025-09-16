@@ -3,7 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[spanish]{babel} % Para separación de sílabas en español
 \usepackage{geometry}
-\geometry{a4paper, margin=2.5cm} % Márgenes cómodos
+\geometry{a4paper, margin=2cm} % Márgenes cómodos
 
 % Paquetes CRUCIALES para tu trabajo
 \usepackage{graphicx} % Para incluir imágenes si las hay
@@ -17,6 +17,9 @@
 }
 \usepackage{csquotes} % Para comillas correctas según el idioma
 \usepackage[style=apa, backend=biber, language=auto]{biblatex} % Bibliografía APA
+\usepackage{tabularx} % Para tablas con ancho de columna ajustable
+\usepackage{booktabs} % Para líneas de tabla más profesionales
+\usepackage{titling} % Para personalizar la portada
 
 \DeclareLanguageMapping{spanish}{spanish-apa} % Mapea el idioma 'spanish' a la variante de estilo 'spanish-apa'
 \addbibresource{bibliografica.bib} % Apunta a tu archivo .bib
@@ -24,16 +27,19 @@
 % Metadatos del documento
 \title{Inteligencia Artificial en Argentina: Un Análisis Jurídico desde la Constitución Nacional y el Código Civil y Comercial}
 \author{
-    \textbf{Integrantes Grupo 5} \\
-    \vspace{0.4cm} % Espacio vertical para separar el subtítulo de los nombres
-    \begin{tabular}{l}
-        Matias Pormi \\
-        Nombre Integrante 2 \\
-        Nombre Integrante 3 \\
-        Nombre Integrante 4 \\
-        Nombre Integrante 5
-    \end{tabular}
+    Mayra Garcia \\
+    Facundo Longin \\
+    Elías Aires  \\
+    Juan Cruz Yorio \\
+    Matias Pormi
 }
+\date{} % <-- Esto elimina la fecha de la portada
+
+% --- Personalización de la portada con 'titling' ---
+\pretitle{\begin{center}\LARGE\bfseries}
+\posttitle{\par\end{center}\vspace{1.5cm}}
+\preauthor{\begin{center}\large\bfseries Integrantes Grupo 5 \par\vspace{0.5cm}\normalfont}
+\postauthor{\end{center}}
 
 \begin{document}
 
@@ -49,6 +55,7 @@
 \newpage % Fuerza un salto de página después del índice
 \twocolumn % <-- A partir de aquí, todo será en dos columnas
 
+\label{sec:Resumen}
 \begin{abstract}
 Este trabajo práctico analiza los desafíos que la Inteligencia Artificial (IA) plantea al marco jurídico argentino, tomando como caso de estudio el artículo \enquote{La Arquitectura Constitucional de la Innovación con IA: Red de Protección para el Desarrollo Tecnológico Responsable}. El objetivo principal es examinar cómo los principios fundamentales del derecho privado y constitucional contenidos en las primeras siete unidades de la obra \enquote{Legislación - Lecciones de Derecho} pueden aplicarse para regular esta tecnología disruptiva. La metodología consiste en un análisis jurídico-doctrinario que relaciona de manera crítica cada capítulo del libro (desde el concepto de Derecho hasta los Derechos Reales) con los problemas específicos que surgen de la IA, como la responsabilidad por daños de sistemas autónomos, la validez de los actos jurídicos celebrados por agentes artificiales y la protección de los datos personales. Desde un \emph{enfoque ingenieril}, se concluye que el desarrollo técnico de la IA en Argentina debe incorporar por defecto principios de \emph{privacy by design} y \emph{transparencia algorítmica} para alinearse con las garantías constitucionales y evitar incurrir en responsabilidad civil o contractual. El hallazgo central del trabajo es que la Constitución Nacional de 1853, a través de una \emph{interpretación evolutiva} de sus cláusulas (arts. 19, 14, 42 y 33), provee una red de protección suficientemente robusta y flexible para fomentar la innovación tecnológica responsable, sin necesidad de una reforma legal inmediata, sirviendo como guía para una eventual ley específica de IA.
 
@@ -61,7 +68,7 @@ Este trabajo práctico analiza los desafíos que la Inteligencia Artificial (IA)
 
 La inteligencia artificial (IA) ha irrumpido en el siglo XXI no solo como una herramienta tecnológica, sino como una fuerza disruptiva que redefine industrias, interacciones sociales y, de manera crucial, los marcos normativos que rigen las sociedades contemporáneas. Su desarrollo vertiginoso presenta desafíos jurídicos complejos que tensionan los conceptos tradicionales del derecho, tales como la personalidad jurídica, la responsabilidad civil, la privacidad y la validez de los actos voluntarios. Argentina, en su aspiración de convertirse en un hub tecnológico global, no es ajena a este debate, que se manifiesta en una creciente producción legislativa y doctrinaria orientada a encontrar un equilibrio entre la innovación desregulada y la protección irrestricta de los derechos fundamentales.
 
-El presente trabajo se enmarca en el análisis de este fenómeno a partir del artículo periodístico, titulado \enquote{La Arquitectura Constitucional de la Innovación con IA: Red de Protección para el Desarrollo Tecnológico Responsable}. Este artículo periodístico, de origen argentino y reciente publicación, resulta particularmente oportuno para el análisis, ya que propone una solución inherentemente jurídica: la aplicación de una \emph{interpretación evolutiva} de la Constitución Nacional de 1853 para dar respuesta a los problemas inéditos que plantea la IA, sin necesidad de acudir inicialmente a una reforma legal integral.
+El presente trabajo se enmarca en el análisis de este fenómeno a partir del artículo periodístico de \textcite{articulo_ia}, titulado \enquote{La Arquitectura Constitucional de la Innovación con IA: Red de Protección para el Desarrollo Tecnológico Responsable}. Este artículo, de origen argentino y reciente publicación, resulta particularmente oportuno para el análisis, ya que propone una solución inherentemente jurídica: la aplicación de una \emph{interpretación evolutiva} de la Constitución Nacional de 1853 para dar respuesta a los problemas inéditos que plantea la IA, sin necesidad de acudir inicialmente a una reforma legal integral.
 
 El objetivo central de esta investigación es realizar un análisis crítico y detallado que permita \emph{relacionar} los postulados del artículo mencionado con los contenidos de las primeras siete unidades del libro de texto, \enquote{Legislación - Lecciones de Derecho}. Se procederá a un examen secuencial de cada capítulo (El Derecho, El Sistema Jurídico, La Constitución, Persona, Hechos y Actos Jurídicos, Obligaciones y Derechos Reales), explorando cómo los principios allí establecidos interactúan y se adaptan a los desafíos específicos de la IA.
 
@@ -75,7 +82,7 @@ Adicionalmente, y en cumplimiento de la consigna práctica, se incorporará un \
 
 El Capítulo I de la obra \textcite{libro_legislacion} establece que el Derecho es un sistema dinámico de normas que regulan la convivencia social, con el fin de alcanzar valores fundamentales como la \emph{justicia, el orden, la seguridad y la paz}. Estas normas jurídicas, coercibles y coactivas, se diferencian de otras (morales, religiosas, sociales) por su carácter imperativo y por ser creadas y garantizadas por el Estado para organizar la vida en sociedad de manera pacífica y justa.
 
-La irrupción de tecnologías disruptivas como la Inteligencia Artificial (IA) representa un desafío sin precedentes para estos conceptos fundacionales. El artículo ``La Arquitectura Constitucional de la Innovación con IA'' \textcite{articulo_ia} plantea que la tensión entre innovación tecnológica y regulación puede resolverse mediante una \textbf{interpretación evolutiva} de la Constitución Nacional, la cual provee una \emph{red de protección} basada en seis nodos constitucionales clave. Esta red permite que el marco normativo existente se adapte para abordar realidades donde actores no humanos (sistemas de IA) toman decisiones autónomas, sin necesidad de abandonar los principios esenciales del Derecho identificados en el Capítulo I.
+La irrupción de tecnologías disruptivas como la Inteligencia Artificial (IA) representa un desafío sin precedentes para estos conceptos fundacionales. El artículo ``La Arquitectura Constitucional de la Innovación con IA'' plantea que la tensión entre innovación tecnológica y regulación puede resolverse mediante una \textbf{interpretación evolutiva} de la Constitución Nacional, la cual provee una \emph{red de protección} basada en seis nodos constitucionales clave. Esta red permite que el marco normativo existente se adapte para abordar realidades donde actores no humanos (sistemas de IA) toman decisiones autónomas, sin necesidad de abandonar los principios esenciales del Derecho identificados en el Capítulo I.
 
 \subsubsection*{Los Seis Nodos Constitucionales y su Relación con el Concepto de Derecho:}
 El artículo periodístico propone que la CN de 1853, a través de una interpretación dinámica, ofrece un marco completo para regular la IA. Esta \emph{arquitectura constitucional} se sustenta en los siguientes nodos, cada uno de los cuales interactúa con los valores y funciones del Derecho:
@@ -100,7 +107,7 @@ El análisis del artículo periodístico a la luz de los conceptos del Capítulo
 \subsection{Capítulo II: ``El Sistema Jurídico''}
 \label{subsec:sistema}
 
-El sistema jurídico argentino se estructura bajo el principio de \textbf{supremacía constitucional} (Art. 31 CN), donde la Constitución Nacional es la norma fundamental que integra y da coherencia a todo el ordenamiento. El artículo periodístico analizado \textcite{articulo_ia} destaca que, ante la ausencia de una ley específica de IA, la regulación debe articularse mediante una \textbf{interpretación sistemática} que combine diversas fuentes normativas bajo el paraguas constitucional.
+El sistema jurídico argentino se estructura bajo el principio de \textbf{supremacía constitucional} (Art. 31 CN), donde la CN \parencite{constitucion} es la norma fundamental que integra y da coherencia a todo el ordenamiento. El artículo periodístico analizado destaca que, ante la ausencia de una ley específica de IA, la regulación debe articularse mediante una \textbf{interpretación sistemática} que combine diversas fuentes normativas bajo el paraguas constitucional.
 
 La pirámide de Kelsen ofrece el marco para entender cómo se regula la IA:
 \begin{itemize}
@@ -137,26 +144,99 @@ La CN provee una red de protección integral a través de la articulación de su
 \subsection{Capítulo IV: ``Persona''}
 \label{subsec:persona}
 
-El concepto jurídico de persona en el CCyC (Art. 22 y siguientes) resulta insuficiente para abordar los desafíos que plantean los sistemas de IA autónomos, tal como lo evidencia el análisis del artículo periodístico.
+El concepto de persona en el Código Civil y Comercial de la Nación \parencite{ccyc} constituye uno de los pilares fundamentales del sistema jurídico argentino, regulado en los arts. 22 a 25. Según estas disposiciones, solo las personas humanas y jurídicas son consideradas sujetos de derecho, gozando de capacidad para adquirir derechos y contraer obligaciones. Sin embargo, este marco normativo evidencia importantes limitaciones ante los avances tecnológicos, particularmente en el ámbito de la inteligencia artificial (IA), donde sistemas autónomos pueden realizar acciones con consecuencias jurídicas sin encuadrar en las categorías tradicionales de persona.
 
-\subsubsection*{Ejemplo práctico - Vehículo autónomo:}
-Un automóvil con IA causa un accidente de tránsito sin intervención humana. Este caso ilustra perfectamente la problemática planteada en el artículo periodístico. El marco legal aplicable muestra las limitaciones actuales:
+\subsubsection*{Limitaciones del CCyC frente a la IA:}
 \begin{itemize}
-    \item  La imposibilidad de atribuir responsabilidad a la IA por carecer de personalidad jurídica
-    \item  La aplicación del Art. 1757 CCyC sobre cosas riesgosas mediante interpretación extensiva
-    \item  La responsabilidad solidaria del fabricante, programador y propietario como solución transitoria
-    \item  La urgente necesidad de adaptar el régimen de seguros obligatorios
+    \item \textbf{Art. 22 CCyC:} Establece que "Son personas todos los entes susceptibles de adquirir derechos o contraer obligaciones". Esta definición excluye expresamente a los sistemas de IA, al requerir un sustrato biológico (persona humana) o una construcción jurídica (persona jurídica).
+    \item \textbf{Art. 23 CCyC:} Define el inicio de la existencia de la persona humana, requisitos que obviamente no pueden ser satisfechos por entidades artificiales.
+    \item \textbf{Vacío legal:} La imposibilidad de atribuir personalidad jurídica a sistemas autónomos genera un déficit de responsabilidad cuando estos causan daños sin intervención humana directa.
 \end{itemize}
 
-\subsubsection*{Conclusión:}
-La figura tradicional de persona evidencia su insuficiencia frente a la IA autónoma, reforzando la tesis del artículo periodístico sobre la necesidad de aplicar una \textbf{interpretación constitucional evolutiva} que permita adaptar las instituciones jurídicas existentes a los nuevos desafíos tecnológicos.
-\section{Enfoque Ingenieril}
-\label{sec:ingenieril}
-Desarrollo del análisis desde la perspectiva de la ingeniería.
+\subsubsection*{Ejemplo práctico - Sistema de IA en gestión financiera:}
+Un algoritmo de inversión autónomo gestiona carteras de valores en el mercado bursátil argentino. Tras una falla en su diseño, realiza operaciones masivas que provocan pérdidas significativas a inversionistas y afectan la estabilidad del mercado. El análisis bajo el CCyC revela:
 
-\section{Conclusión}
-\label{sec:conclusion}
-Síntesis final de los hallazgos.
+\begin{itemize}
+    \item \textbf{Falta de sujeto responsable:} El algoritmo no es persona según el Art. 22 CCyC, por lo que no puede ser considerado responsable civilmente.
+    \item \textbf{Distribución de responsabilidad:} Los afectados deberán demandar a los desarrolladores, propietarios o usuarios del sistema bajo figuras indirectas.
+    \item \textbf{Art. 1757 CCyC:} Podría aplicarse por analogía, considerando al sistema de IA como "cosa riesgosa", haciendo responsable a su "guardián".
+    \item \textbf{Responsabilidad solidaria:} Ante la dificultad de determinar la proporción exacta de responsabilidad, podría aplicarse el principio de responsabilidad solidaria entre fabricante, programador y propietario.
+\end{itemize}
+
+\subsection{Capítulo V: ``Hechos y Actos Jurídicos''}
+\label{subsec:hechos_actos}
+
+El Código Civil y Comercial de la Nación (CCyCN) regula en su Título IV los hechos y actos jurídicos, estableciendo las bases para entender cómo se generan, modifican y extinguen las relaciones jurídicas. Según el Art. 257 CCyCN, el \textbf{hecho jurídico} es el acontecimiento que, conforme al ordenamiento jurídico, produce el nacimiento, modificación o extinción de relaciones o situaciones jurídicas. Estos pueden ser naturales (ej. un desastre natural) o humanos (ej. un contrato). Por su parte, el \textbf{acto jurídico} (Art. 259 CCyCN) es un acto voluntario lícito que tiene por fin inmediato la adquisición, modificación o extinción de relaciones o situaciones jurídicas. La voluntad, esencial en los actos jurídicos, debe manifestarse con discernimiento, intención y libertad (Art. 260 CCyCN).
+
+Sin embargo, la irrupción de la inteligencia artificial (IA) desafía estas categorías tradicionales. Los sistemas de IA, al operar con autonomía, realizan acciones que pueden generar efectos jurídicos sin encuadrar perfectamente en las figuras de hecho o acto jurídico, ya que carecen de voluntad humana pero pueden simularla. El artículo periodístico analizado propone que esta tensión debe resolverse mediante una \textbf{interpretación evolutiva} de las normas existentes, extendiendo los conceptos tradicionales para abarcar los nuevos desafíos tecnológicos sin necesidad de reformas legislativas inmediatas.
+
+\subsubsection*{Ejemplo práctico - Contrato celebrado por IA:}
+Un sistema de IA utilizado por una empresa de comercio electrónico celebra contratos de compraventa de forma autónoma, ajustando precios y condiciones en tiempo real. Tras una falla algorítmica, ofrece productos con precios erróneamente bajos, causando pérdidas económicas a la empresa. El análisis bajo el CCyCN revela:
+\begin{itemize}
+    \item \textbf{Falta de voluntad válida:} La IA carece de discernimiento e intención (Art. 260 CCyCN), por lo que el acto no encaja perfectamente como acto jurídico.
+    \item \textbf{Imposibilidad de aplicar vicios:} No es posible alegar error (Art. 265 CCyCN) o dolo (Art. 272 CCyCN) contra la IA, ya que estos requieren una voluntad humana viciada.
+    \item \textbf{Responsabilidad indirecta:} La empresa podría ser responsable como "guardiana" de la IA bajo el Art. 1757 CCyCN (cosa riesgosa), pero este artículo no está diseñado para actos jurídicos autónomos.
+\end{itemize}
+\subsection{Capítulo VI: ``Obligaciones''}
+\label{subsec:obligaciones}
+
+El CCyC regula en los arts. 724 a 927 el régimen de obligaciones, distinguiendo entre fuentes contractuales y extracontractuales. Los sistemas de IA plantean desafíos particulares en la imputación de responsabilidad, especialmente en casos donde la autonomía algorítmica dificulta establecer nexo causal y culpa, tal como analiza el artículo periodístico.
+
+\subsubsection*{Ejemplo práctico - Responsabilidad por algoritmo crediticio:}
+Un sistema de scoring crediticio basado en IA deniega automáticamente solicitudes de crédito a personas de determinado perfil socioeconómico. El análisis legal revela:
+
+\begin{itemize}
+    \item \textbf{Art. 1710 CCyC:} Responsabilidad por daños causados por el riesgo o vicio de las cosas
+    \item \textbf{Art. 1768 CCyC:} Carga de la prueba inversa en casos de afectación de derechos de incidencia colectiva
+    \item \textbf{Art. 1774 CCyC:} Responsabilidad solidaria entre desarrolladores, implementadores y usuarios del sistema
+\end{itemize}
+
+\subsubsection*{Vinculación con el artículo periodístico:}
+El artículo sostiene que el principio de razonabilidad (Art. 28 CN) obliga a distribuir la carga probatoria de manera equilibrada, favoreciendo a los afectados por decisiones algorítmicas opacas. La interpretación evolutiva del art. 42 CN sobre derechos del consumidor podría exigir la transparencia algorítmica como obligación esencial.
+
+\subsection{Capítulo VII: ``Derechos Reales''}
+\label{subsec:derechos_reales}
+
+El CCyC regula en los arts. 1886 a 1972 los derechos reales, estableciendo el régimen de propiedad y demás derechos sobre bienes. Los sistemas de IA plantean desafíos particulares en la protección de creaciones generadas autónomamente y en el estatus jurídico de los datos, tal como analiza el artículo periodístico en relación con la propiedad intelectual en la era digital.
+
+\subsubsection*{Ejemplo práctico - Propiedad de creaciones generadas por IA:}
+Un sistema de IA genera una obra artística o un invento sin intervención humana directa en el proceso creativo. El análisis legal revela:
+
+\begin{itemize}
+    \item \textbf{Art. 17 CN:} Protege la propiedad intelectual pero requiere autor humano
+    \item \textbf{Art. 1 Ley 11.723:} Requiere "autor persona física" para protección jurídica
+    \item \textbf{Art. 1892 CCyC:} Los bienes incorporales son cosas pero requieren titularidad definida
+\end{itemize}
+
+\subsubsection*{Vinculación con el artículo periodístico:}
+El artículo propone que la \textbf{interpretación evolutiva} del art. 42 CN sobre derechos de consumidores y usuarios podría extenderse para reconocer derechos sobre los datos utilizados para entrenar sistemas de IA. Asimismo, sugiere que el principio de función social de la propiedad (Art. 14 bis CN) permitiría limitar los derechos exclusivos sobre creaciones generadas por IA cuando afecten el interés público.
+
+
+\onecolumn % <-- Volvemos a una columna y se inserta un salto de página
+
+\section{Enfoque Ingenieril}
+\label{sec:enfoque_ingenieril}
+
+Desde la perspectiva de la ingeniería en sistemas, el desarrollo de inteligencia artificial debe incorporar principios de diseño ético y cumplimiento legal desde sus etapas iniciales. El artículo periodístico analizado proporciona un marco conceptual que puede traducirse en prácticas ingenieriles concretas.
+
+\subsection{Implementación Técnica de Garantías Constitucionales}
+Las garantías analizadas requieren traducción a requisitos técnicos:
+
+\begin{table*}[h]
+\centering
+\caption{Traducción de garantías constitucionales a implementación técnica}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Garantía Constitucional} & \textbf{Implementación Técnica} \\
+\midrule
+Art. 19 CN (Privacidad) & Cifrado de extremo a extremo (end-to-end encryption), técnicas de anonimización y pseudoanonimización de datos. \\
+\addlinespace
+Art. 42 CN (Transparencia) & Creación de \textit{Model Cards} y \textit{Dataset Sheets} para documentar modelos y datos, uso de control de versiones para trazabilidad. \\
+\addlinespace
+Art. 43 CN (Amparo) & Implementación de un sistema de registro de eventos (logging) exhaustivo y sistemas de reversión (rollback) automáticos ante fallos críticos. \\
+\bottomrule
+\end{tabularx}
+\end{table*}
 
 % --- BIBLIOGRAFÍA ---
 % Las entradas se tomarán del archivo 'bibliografia.bib'

@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{ccyc}{legal}{}{}
+      \list{organization}{1}{%
+        {Congreso de la Nación Argentina}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Código Civil y Comercial de la Nación}
+      \field{year}{2015}
+    \endentry
+    \entry{constitucion}{legal}{}{}
+      \list{organization}{1}{%
+        {Congreso de la Nación Argentina}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Constitución de la Nación Argentina}
+      \field{year}{1853}
+    \endentry
     \entry{libro_legislacion}{book}{}{}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
@@ -52,13 +76,8 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Abogados.com.ar}
       \field{title}{La Arquitectura Constitucional de la Innovación con IA}
-      \field{urlday}{15}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
       \field{year}{2025}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://abogados.com.ar/index.php/la-arquitectura-constitucional-de-la-innovacion-con-ia-red-de-proteccion-para-el-desarrollo-tecnologico-responsable/37453#
       \endverb
@@ -68,6 +87,30 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{ccyc}{legal}{}{}
+      \list{organization}{1}{%
+        {Congreso de la Nación Argentina}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Código Civil y Comercial de la Nación}
+      \field{year}{2015}
+    \endentry
+    \entry{constitucion}{legal}{}{}
+      \list{organization}{1}{%
+        {Congreso de la Nación Argentina}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Constitución de la Nación Argentina}
+      \field{year}{1853}
+    \endentry
     \entry{libro_legislacion}{book}{}{}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
@@ -101,13 +144,8 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Abogados.com.ar}
       \field{title}{La Arquitectura Constitucional de la Innovación con IA}
-      \field{urlday}{15}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
       \field{year}{2025}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://abogados.com.ar/index.php/la-arquitectura-constitucional-de-la-innovacion-con-ia-red-de-proteccion-para-el-desarrollo-tecnologico-responsable/37453#
       \endverb
