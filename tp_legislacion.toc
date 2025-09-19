@@ -10,4 +10,5 @@
 \contentsline {subsection}{\numberline {2.7}Capítulo VII: ``Derechos Reales''}{6}{subsection.2.7}%
 \contentsline {section}{\numberline {3}Enfoque Ingenieril}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Implementación Técnica de Garantías Constitucionales}{7}{subsection.3.1}%
-\contentsline {section}{Referencias}{7}{table.1}%
+\contentsline {section}{\numberline {4}Conclusión}{7}{section.4}%
+\contentsline {section}{Referencias}{7}{section.4}%
