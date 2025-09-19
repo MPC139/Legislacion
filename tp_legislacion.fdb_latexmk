@@ -1,20 +1,18 @@
 # Fdb version 4
-["biber tp_legislacion"] 1758130504.80375 "tp_legislacion.bcf" "tp_legislacion.bbl" "tp_legislacion" 1758130562.77484 0
+["biber tp_legislacion"] 1758130504.80375 "tp_legislacion.bcf" "tp_legislacion.bbl" "tp_legislacion" 1758317772.71822 0
   "bibliografica.bib" 1758121079.95418 836 7450907dec92b616e3d16a7a4e5efcb4 ""
-  "tp_legislacion.bcf" 1758130562.64153 133280 bf8d3dd4fd5814a7e93b67075cbc65a4 "pdflatex"
+  "tp_legislacion.bcf" 1758317772.57129 133280 bf8d3dd4fd5814a7e93b67075cbc65a4 "pdflatex"
   (generated)
   "tp_legislacion.bbl"
   "tp_legislacion.blg"
   (rewritten before read)
-["pdflatex"] 1758130561.34638 "/home/elias/Documents/UTN/legislacion/Legislacion/tp_legislacion.tex" "tp_legislacion.pdf" "tp_legislacion" 1758130562.77528 0
+["pdflatex"] 1758317771.1442 "tp_legislacion.tex" "tp_legislacion.pdf" "tp_legislacion" 1758317772.71904 0
   "/etc/texmf/web2c/texmf.cnf" 1758127468.90513 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/elias/Documents/UTN/legislacion/Legislacion/tp_legislacion.tex" 1758130559.64547 26075 98b84d061148d0b97c49260600b63261 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1136768653 3584 13049b61b922a28b158a38aeff75ee9b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1136768653 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm" 1136768653 3584 cf973739aac7ab6247f9150296af7954 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1136768653 3584 3169d30142b88a27d4ab0e3468e963a2 ""
@@ -102,7 +100,6 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb" 1758127494.32294 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb" 1758127494.32394 135942 859a90cad7494a1e79c94baf546d7de5 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb" 1758127494.32494 139826 9213617a7cb78635fc326b859c0b2273 ""
-  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb" 1758127494.52394 154599 ded6d7c21788a8930eadc7fef7518942 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1758127494.52994 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb" 1636152094 186554 e8f0fa8ca05e038f257a06405232745f ""
@@ -110,12 +107,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1758127511.15316 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1758127768 8212851 c071412fe516c1fedef66494d59768ec ""
   "imagen_portada.png" 1758121079.97585 2652843 5f00bda8b4b7d3baf3b02fdf0bcad38e ""
-  "tp_legislacion.aux" 1758130562.63695 4446 59ddab36367e7d3c82245ec2b0b1a395 "pdflatex"
+  "tp_legislacion.aux" 1758317772.56506 4302 315c800a6c2949e7d6bcba23d21623bf "pdflatex"
   "tp_legislacion.bbl" 1758130506.03524 5924 9320a2b1a81432ab3581a827abd208bf "biber tp_legislacion"
-  "tp_legislacion.out" 1758130562.63953 2703 b3ee1f6b554d8e48daecdaf8db179ddb "pdflatex"
-  "tp_legislacion.run.xml" 1758130562.64375 2432 c151eaf9881e4a791844c1d76de26b61 "pdflatex"
-  "tp_legislacion.tex" 1758130559.64547 26075 98b84d061148d0b97c49260600b63261 ""
-  "tp_legislacion.toc" 1758130562.64375 1215 a2ac75c9a2ca0f3bd24558e0fb104722 "pdflatex"
+  "tp_legislacion.out" 1758317772.56829 2468 a648c9e696ba97b014af7979772ed183 "pdflatex"
+  "tp_legislacion.run.xml" 1758317772.57355 2432 c151eaf9881e4a791844c1d76de26b61 "pdflatex"
+  "tp_legislacion.tex" 1758317746.73424 26996 7adb3b5dee2b034100ceb6757715ca95 ""
+  "tp_legislacion.toc" 1758317772.57355 1115 1184e62dfaf8b5c08a823b3c9de3cd89 "pdflatex"
   (generated)
   "tp_legislacion.aux"
   "tp_legislacion.bcf"
