@@ -1,14 +1,13 @@
 # Fdb version 4
-["biber tp_legislacion"] 1758130504.80375 "tp_legislacion.bcf" "tp_legislacion.bbl" "tp_legislacion" 1758317790.71825 0
+["biber tp_legislacion"] 1758130504.80375 "tp_legislacion.bcf" "tp_legislacion.bbl" "tp_legislacion" 1758319579.60759 0
   "bibliografica.bib" 1758121079.95418 836 7450907dec92b616e3d16a7a4e5efcb4 ""
-  "tp_legislacion.bcf" 1758317790.58484 133280 bf8d3dd4fd5814a7e93b67075cbc65a4 "pdflatex"
+  "tp_legislacion.bcf" 1758319579.45961 133280 bf8d3dd4fd5814a7e93b67075cbc65a4 "pdflatex"
   (generated)
   "tp_legislacion.bbl"
   "tp_legislacion.blg"
   (rewritten before read)
-["pdflatex"] 1758317788.96793 "/home/elias/Documents/UTN/legislacion/Legislacion/tp_legislacion.tex" "tp_legislacion.pdf" "tp_legislacion" 1758317790.71878 0
+["pdflatex"] 1758319577.82027 "tp_legislacion.tex" "tp_legislacion.pdf" "tp_legislacion" 1758319579.60815 0
   "/etc/texmf/web2c/texmf.cnf" 1758127468.90513 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/elias/Documents/UTN/legislacion/Legislacion/tp_legislacion.tex" 1758317746.73424 26996 7adb3b5dee2b034100ceb6757715ca95 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -108,12 +107,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1758127511.15316 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1758127768 8212851 c071412fe516c1fedef66494d59768ec ""
   "imagen_portada.png" 1758121079.97585 2652843 5f00bda8b4b7d3baf3b02fdf0bcad38e ""
-  "tp_legislacion.aux" 1758317790.57905 4302 315c800a6c2949e7d6bcba23d21623bf "pdflatex"
+  "tp_legislacion.aux" 1758319579.45161 4446 4fe59ed5033611f3128a271378161bd7 "pdflatex"
   "tp_legislacion.bbl" 1758130506.03524 5924 9320a2b1a81432ab3581a827abd208bf "biber tp_legislacion"
-  "tp_legislacion.out" 1758317790.58184 2468 a648c9e696ba97b014af7979772ed183 "pdflatex"
-  "tp_legislacion.run.xml" 1758317790.58749 2432 c151eaf9881e4a791844c1d76de26b61 "pdflatex"
-  "tp_legislacion.tex" 1758317746.73424 26996 7adb3b5dee2b034100ceb6757715ca95 ""
-  "tp_legislacion.toc" 1758317790.58749 1115 1184e62dfaf8b5c08a823b3c9de3cd89 "pdflatex"
+  "tp_legislacion.out" 1758319579.45661 2703 b3ee1f6b554d8e48daecdaf8db179ddb "pdflatex"
+  "tp_legislacion.run.xml" 1758319579.46118 2432 c151eaf9881e4a791844c1d76de26b61 "pdflatex"
+  "tp_legislacion.tex" 1758319554.38176 26996 10bbd832fbed792e988f87546dcf0309 ""
+  "tp_legislacion.toc" 1758319579.46118 1215 7903977a5b89f9626c1ba129ffc0f504 "pdflatex"
   (generated)
   "tp_legislacion.aux"
   "tp_legislacion.bcf"
